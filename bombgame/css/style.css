@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+#main-container{
+    width: 600px;
+    height: 350px;
+    background-image: url(../img/city.jpg);
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.overall-container{
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: gray;
+}
+h1{
+    margin-left: 200px;
+    font-size: 3vw;
+}
+p{
+    font-size: 1.5vw;
+}
+h2{
+    font-size: 2vw;
+}

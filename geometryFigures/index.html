@@ -8,10 +8,17 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="">
 </head>
 <body>
+    <h2>Press a button for a figure to appear</h2>
     <div id="vertical"></div>
-    <div id="contenedor">
+        <div id="contenedor">
         <canvas id="lienzo" width="1000px" height="500px"></canvas>
-        <button id="btnAmpliar" onclick="ampliar()">Ampliar Canvas</button>
+        <div id="button-container">
+            <button id="circle">Circle</button>
+            <button id="oval">oval</button>
+            <button id="rectangle">Rectangle</button>
+            <button id="square">Square</button>
+            <button id="triangle">Triangle</button>
+        </div>
     </div>
     <script src="jss/jss.js"></script>
 </body>
