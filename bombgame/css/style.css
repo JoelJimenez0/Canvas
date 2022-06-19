@@ -1,6 +1,6 @@
 *{
     font-family: sans-serif;
-    color: white;
+    color: black;
 }
 #main-container{
     width: 600px;
@@ -10,9 +10,21 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
+    
+}
+#bomb{
+    width: 10vh;
+    display: none;
+}
+#typing{
+    align-items: center;
+    text-align: center;
+    color: black;
 }
 .overall-container{
     max-width: 700px;
+    border: 20px;
+    border-color: blue;
     margin: 20px auto;
     background-color: gray;
 }
@@ -25,4 +37,7 @@ p{
 }
 h2{
     font-size: 2vw;
+}
+button{
+    color: black;
 }
