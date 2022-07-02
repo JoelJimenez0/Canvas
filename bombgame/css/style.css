@@ -5,12 +5,11 @@
 #main-container{
     width: 600px;
     height: 350px;
-    background-image: url(../img/city.jpg);
     margin: auto;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    
+    background-image: url(../img/city.jpg);
 }
 #bomb{
     width: 10vh;
@@ -20,6 +19,7 @@
     align-items: center;
     text-align: center;
     color: black;
+    font-size: 3vh;
 }
 .overall-container{
     max-width: 700px;
@@ -34,9 +34,11 @@ h1{
 }
 p{
     font-size: 1.5vw;
+    margin-left: 1.5vh;
 }
 h2{
     font-size: 2vw;
+    margin-left: 1.5vh;
 }
 button{
     color: black;
